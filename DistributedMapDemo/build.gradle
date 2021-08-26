@@ -4,13 +4,13 @@ apply plugin: 'com.huawei.ohos.app'
 ohos {
     signingConfigs {
         debug {
-            storeFile file('/Users/glovebx/.ohos/config/auto_debug_260086000067293784.p12')
-            storePassword '000000183764B9734D9D93DD05E72A9A59AD07E6B8A8800D3132EFC4C164780FBFC2BBBFD2E93627'
-            keyAlias = 'debugKey'
-            keyPassword '00000018365EBF51C9022F7B6CCDEC3918299D9EB2116078AC921D64258EEA5FD6434A4690C36F33'
+            storeFile file('/Users/glovebx/Dev/projects/huawei/key_p12_csr_store/harmony_app_debug.p12')
+            storePassword '0000001987632AFB1F0DE019D0D2D1E062C9DF596BB76746603FF91B55105B7319A3830BFF79EBB4A4'
+            keyAlias = 'harmony_app_debug_key_alias'
+            keyPassword '00000019037979154706B178C0902BC0275EAD38051B8BE8A9D8C72E7D097C0CD04ED0DF372C190CD7'
             signAlg = 'SHA256withECDSA'
-            profile file('/Users/glovebx/.ohos/config/auto_debug_codelab616_260086000067293784.p7b')
-            certpath file('/Users/glovebx/.ohos/config/auto_debug_260086000067293784.cer')
+            profile file('/Users/glovebx/Downloads/harmonyos_distributed_provisionDebug.p7b')
+            certpath file('/Users/glovebx/Downloads/harmonyos_app_est.cer')
         }
     }
     compileSdkVersion 5
